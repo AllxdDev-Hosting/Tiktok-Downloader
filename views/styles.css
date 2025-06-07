@@ -101,7 +101,7 @@ header p {
 
 .how-to-download .step i {
     font-size: 2.5rem;
-    color: #ffffff;
+    color: #05469b;
     margin-bottom: 10px;
 }
 
@@ -144,7 +144,7 @@ header p {
 
 .features-container .step i {
     font-size: 2.5rem;
-    color: #ffffff;
+    color: #05469b;
     margin-bottom: 10px;
 }
 
@@ -172,7 +172,7 @@ header p {
 /* Add this to the existing CSS */
 .result-container button {
     padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: #05469b;
     color: white;
     border: none;
     border-radius: 5px;
@@ -183,7 +183,7 @@ header p {
 }
 
 .result-container button:hover {
-    background-color: #ffffff;
+    background-color: #05469b;
 }
 
 footer {
@@ -200,7 +200,7 @@ footer p {
 
 .loading {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #05469b;
     text-align: center;
     margin-top: 20px;
 }
