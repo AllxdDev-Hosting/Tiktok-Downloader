@@ -93,7 +93,7 @@ header p {
     max-width: 300px;
     margin: 10px;
     padding: 20px;
-    background: aqua;
+    background:  #000000;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -136,7 +136,7 @@ header p {
     max-width: 300px;
     margin: 10px;
     padding: 20px;
-    background: aqua;
+    background:  #000000;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
