@@ -64,7 +64,7 @@ header p {
 }
 
 .input-section button:hover {
-    background-color: #0fccbf;
+    background-color: #000000;
 }
 
 .how-to-download {
@@ -183,7 +183,7 @@ header p {
 }
 
 .result-container button:hover {
-    background-color: #0fccbf;
+    background-color: #000000;
 }
 
 footer {
