@@ -7,7 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color:  #05469b;
     line-height: 1.6;
 }
 
@@ -69,7 +69,7 @@ header p {
 
 .how-to-download {
     background: #f4f4f4;
-    color: #333;
+    color:  #05469b;
     padding: 40px 0;
 }
 
@@ -112,7 +112,7 @@ header p {
 /* Features Container */
 .features-container {
     background:#f4f4f4;
-    color: #333;
+    color:  #05469b;
     padding: 40px 0;
 }
 
@@ -187,7 +187,7 @@ header p {
 }
 
 footer {
-    background: #333;
+    background:  #05469b;
     color: white;
     padding: 10px 0;
     font-size: 0.9rem;
