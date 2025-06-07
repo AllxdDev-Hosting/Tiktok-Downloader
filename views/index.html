@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TikTok Video Downloader By AllxdDev-Hosting</title>
+    <link rel="icon" href="./download.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+   
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./download.png" width="30" height="30" class="d-inline-block align-top" alt="NavBar" style="border-radius: 30px;">
+                TikTok Downloader By AllxdDev-Hosting
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://instagram.com/allxddev" target="_blank">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/AllxdDev-Hosting" target="_blank">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-to-download" target="_blank">How To Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features" target="_blank">Features</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+         <!-- alert -->
+        <div id="alert-container" class="container mt-3"></div>
+        <div class="container">
+            <h1>TikTok Downloader</h1>
+            <p>Download TikTok videos or images without watermark in high quality</p>
+        </div>
+
+        <section class="input-section">
+            <div class="container">
+                <form id="download-form">
+                    <div class="input-group">
+                        <input type="url" id="video-url" class="form-control" placeholder="Paste TikTok link here" required>
+                        <div class="input-group-append">
+                            <button type="button" id="paste-button" class="btn btn-outline-secondary" style="height: 70%;">
+                                <i class="fas fa-paste"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2">Download</button>
+                </form>
+            </div>
+        </section>
+    </header>
+ 
+    <div class="container">
+        <div id="loading" class="loading" style="display: none;"></div>
+           <!-- Loading spinner will be injected here by JavaScript -->
+        <div id="result" class="result-container" style="display: none;"></div>
+           <!-- Result will be injected here by JavaScript -->
+    </div>
+
+    <section class="how-to-download" id="how-to-download">
+        <div class="container">
+            <h2>How to Download Video</h2>
+            <div class="steps">
+                <div class="step">
+                    <i class="fas fa-copy"></i>
+                    <p>Copy the TikTok video URL.</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-paste"></i>
+                    <p>Paste the URL into the input field.</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-download"></i>
+                    <p>Click the download button.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-container" id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="steps">
+                <div class="step">
+                    <i class="fas fa-water"></i>
+                    <p>No watermark</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-highlighter"></i>
+                    <p>HD Quality</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-bolt"></i>
+                    <p>Fast and easy to use</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TikTok Downloader. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+</body>
+</html>

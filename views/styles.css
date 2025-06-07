@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(45deg, #26ff00, #5940f1, #0066ff, #ff0000);
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.input-section {
+    margin: 30px 0;
+}
+
+.input-section form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-section input[type="url"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.input-section button:hover {
+    background-color: #3700b3;
+}
+
+.how-to-download {
+    background: #f4f4f4;
+    color: #333;
+    padding: 40px 0;
+}
+
+.how-to-download .container {
+    text-align: center;
+}
+
+.how-to-download h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.how-to-download .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.how-to-download .step {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background: aqua;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.how-to-download .step i {
+    font-size: 2.5rem;
+    color: #6200ea;
+    margin-bottom: 10px;
+}
+
+.how-to-download .step p {
+    font-size: 1.1rem;
+}
+
+/* Features Container */
+.features-container {
+    background:#f4f4f4;
+    color: #333;
+    padding: 40px 0;
+}
+
+.features-container .container {
+    text-align: center;
+}
+
+.features-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.features-container .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features-container .step {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background: aqua;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.features-container .step i {
+    font-size: 2.5rem;
+    color: #6200ea;
+    margin-bottom: 10px;
+}
+
+.features-container .step p {
+    font-size: 1.1rem;
+}
+
+.result-container {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.result-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Add this to the existing CSS */
+.result-container button {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.result-container button:hover {
+    background-color: #3700b3;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+/* Loader */
+
+.loading {
+    font-size: 1.5rem;
+    color: #6200ea;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loading::after {
+    content: ' ';
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    border-right-color: transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
