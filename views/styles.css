@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #174ba5;
+    background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
@@ -54,7 +54,7 @@ header p {
 
 .input-section button {
     padding: 10px 20px;
-    background-color: #000000;
+    background-color: #05469b;
     color: white;
     border: none;
     border-radius: 5px;
@@ -64,12 +64,12 @@ header p {
 }
 
 .input-section button:hover {
-    background-color: #000000;
+    background-color: #0fccbf;
 }
 
 .how-to-download {
     background: #f4f4f4;
-    color: #000000;
+    color: #333;
     padding: 40px 0;
 }
 
@@ -93,7 +93,7 @@ header p {
     max-width: 300px;
     margin: 10px;
     padding: 20px;
-    background: #000000;
+    background: aqua;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -112,7 +112,7 @@ header p {
 /* Features Container */
 .features-container {
     background:#f4f4f4;
-    color: #000000;
+    color: #333;
     padding: 40px 0;
 }
 
@@ -136,7 +136,7 @@ header p {
     max-width: 300px;
     margin: 10px;
     padding: 20px;
-    background: #000000;
+    background: aqua;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -183,11 +183,11 @@ header p {
 }
 
 .result-container button:hover {
-    background-color: #05469b;
+    background-color: #0fccbf;
 }
 
 footer {
-    background: #000000;
+    background: #333;
     color: white;
     padding: 10px 0;
     font-size: 0.9rem;
